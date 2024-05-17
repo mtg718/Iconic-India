@@ -35,13 +35,6 @@ const Login = () => {
             timer: 3000
           })
           navigate('/')
-        } else {
-          swal({
-            title: "Invalid Credentials",
-            icon: "error",
-            buttons: false,
-            timer: 3000
-          })
         }
       })
     } catch (error) {
